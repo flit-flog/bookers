@@ -19,6 +19,11 @@
     </tbody>
 </table>
 <!--新規投稿-->
+<div>
+<%=flash[:notice]%>
+</div>
+
+
 <h2>New book</h2>
 <%= form_with model: @book do |f| %>
     <p>Title</p>
